@@ -1,0 +1,21 @@
+body, HTML {
+    overflow-x: hidden;
+ }
+
+#panel {
+    min-height: 100vh;
+    background: #121c38; 
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
+}
+
+
+#picture {
+    background-color: #175eaf;
+    margin-left: 80px;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+}
+

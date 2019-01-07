@@ -12,3 +12,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#panel {
+  min-height: 100vh;
+  background: #292929; 
+  height: 100%;
+  width: 104%;
+  border-radius: 0%;
+}

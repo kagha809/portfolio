@@ -2,25 +2,32 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
+class Panel extends Component {
+  render() {
+      return (      
+          <div id = "panel" className="card row">
+          {/*contains everything in left panel*/}
+
+          <div id = "picture" >
+          </div>
+                         
+          </div>
+      );
+  }
+}
+
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <div>
+            <div className='row' style={{overflowX: 'hidden'}}>
+                 <div className = "col-md-3">
+                  <Panel />
+                 </div>       
+            </div>              
+      </div>     
     );
   }
 }
